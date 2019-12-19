@@ -31,7 +31,7 @@ function handler(data) {
   weatherDiv.innerHTML = weatherFragmet;
 }
 document.addEventListener("DOMContentLoaded", function() {
-  const apiKey = "df2e24f4de6201ae412fdb10e85a777b";
+  const apiKey = "urpikey";
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=los+angles&APPID" +
     apiKey;
